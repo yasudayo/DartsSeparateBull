@@ -10,10 +10,10 @@ $(function(){
       setTimeout(function(){
         $('.Coin').removeClass('toss');
         if(rndm == 1){
-          $('.Coin').css(`background-image`,`url(CoinO.png)`);
+          $('.Coin').css(`background-image`,`url(coinO.png)`);
           CoinO()
         } else {
-          $('.Coin').css(`background-image`,`url(CoinU.png)`);
+          $('.Coin').css(`background-image`,`url(coinU.png)`);
           CoinU()
         }
       },1800);
